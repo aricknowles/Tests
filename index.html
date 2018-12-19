@@ -1,62 +1,17 @@
-<!DOCTYPE html>
-<html>
-    <head>
-    <title>Test</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
-
-
-
-<!--<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>-->
-<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
-
-
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
- 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.4/jquery.scrollify.min.js'></script>
-        
-
-<script>
-$(function () {
-  $.scrollify({
-      section : ".panel",
-      sectionName : "section-name",
-      easing: "easeOutExpo",
-      scrollSpeed: 800,
-      offset : 0,
-      scrollbars: true,
-      standardScrollElements: "",
-      before:function() {},
-      after:function() {},
-      afterResize:function() {},
-      afterRender:function() {}
-    });
-});
-</script>
-<script src="script.js"></script>
-
-<link rel="stylesheet" type="text/css" href="style.css">
-
-
-</head>
-<body>
-<div class="panel head" data-section-name="head">
-    </div>          
-
-<div class="panel about" data-section-name="about">   
+<div class="slides">
+    <section class="slides__slide" data-bg-color="rgba(100,100,100,1)">
+        <h1>Slide 1</h1>
+    </section>
+    <section class="slides__slide" data-bg-color="rgba(255,255,0,1)">
+        <h1>Slide 2</h1>
+    </section>
+    <section class="slides__slide" data-bg-color="rgba(255,0,255,1)">
+        <h1>Slide 3</h1>
+    </section>
+    <section class="slides__slide" data-bg-color="rgba(0,255,255,1)">
+        <h1>Slide 4</h1>
+    </section>
+    <section class="slides__slide" data-bg-color="rgba(255,0,0,1)">
+        <h1>Slide 5</h1>
+    </section>
 </div>
-
-<div class="panel exp" data-section-name="exp">
-</div>
-    
-<div class="panel pub" data-section-name="pub">
-</div>      
-    
-<div class="panel rec" data-section-name="rec">
-</div>
-
-        
-    </body>
-</html>
