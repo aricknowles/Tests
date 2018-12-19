@@ -1,0 +1,49 @@
+html, body
+{
+    height: 100%;
+}
+
+.panel {
+ height:100%;
+  margin:0px;
+    padding:7%;
+border-radius: 0px;
+}
+
+.head {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    text-align: center;
+
+}
+.about {
+    color: dimgray;
+    background-color: aqua;
+    text-align: right;
+    display: flex;
+     min-height:100%;
+
+
+}
+
+.exp{
+    color: dimgray;
+    background-color: greenyellow;
+    
+
+}
+
+.pub {
+  color: dimgray; 
+    text-align: right;
+    background-color: lightsteelblue;    
+
+}
+.rec {
+    color: dimgray;
+    background-color: #b1e5bd;
+        
+
+}
