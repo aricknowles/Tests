@@ -22,6 +22,7 @@
 $(function () {
   $.scrollify({
       section : ".panel",
+      sectionName : "section-name",
       easing: "easeOutExpo",
       scrollSpeed: 800,
       offset : 0,
@@ -41,26 +42,21 @@ $(function () {
 
 </head>
 <body>
-<section class="panel head">
-    </section>          
-<div id="section-1" class="section"></div>
+<div class="panel head" data-section-name="head">
+    </div>          
 
-<section class="panel about">   
-</section>
+<div class="panel about" data-section-name="about">   
+</div>
 
-
-<div id="section-2" class="section"></div>
-    <section class="panel exp">
-</section>
-
-<div id="section-3" class="section"></div>    
-    <section class="panel pub">
-</section>
-        
-<div id="section-4" class="section"></div>
-    <section class="panel rec">
-</section>
+<div class="panel exp" data-section-name="exp">
+</div>
     
+<div class="panel pub" data-section-name="pub">
+</div>      
+    
+<div class="panel rec" data-section-name="rec">
+</div>
+
         
     </body>
 </html>
